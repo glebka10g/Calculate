@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4BC42721-AACB-47A5-B07A-E2B08CB15D40"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5A6C154C-4300-4115-9BDE-FC1298569593"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "calculate/SecondViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C2C368BE-C177-410F-AF86-752673689325"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "calculate/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "481"
+            endingLineNumber = "481"
+            landmarkName = "ravno()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EAAAB9E0-0226-4942-938B-46A4A583F221"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "calculate/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "468"
+            endingLineNumber = "468"
+            landmarkName = "buttonNineTapped()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "42F67D83-75B7-4FE2-82FE-98E49BDD9631"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "calculate/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "362"
+            endingLineNumber = "362"
+            landmarkName = "substractionNumbers()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D560FC9E-0798-4031-A19D-29CE80DFDFFC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "calculate/SecondViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "567019A4-CC51-47CA-9EB8-383C43ED272E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "calculate/SecondViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6946A8DE-98D4-4268-9551-EB3C0737C309"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "calculate/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "504"
+            endingLineNumber = "504"
+            landmarkName = "ravno()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3B3CC1EB-DC91-4AB1-BBEE-45DB95267B3A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "calculate/SecondViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "22"
+            endingLineNumber = "22"
+            landmarkName = "SecondViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "3B3CC1EB-DC91-4AB1-BBEE-45DB95267B3A - d55dcbf72b72ceb6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "calculate.SecondViewController.historyCalculating.getter : Swift.Array&lt;Swift.Optional&lt;Swift.String&gt;&gt;"
+                  moduleName = "calculate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/glebgurev/Desktop/calculate/calculate/SecondViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "3B3CC1EB-DC91-4AB1-BBEE-45DB95267B3A - 1125e39a65e3b582"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "calculate.SecondViewController.historyCalculating.setter : Swift.Array&lt;Swift.Optional&lt;Swift.String&gt;&gt;"
+                  moduleName = "calculate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/glebgurev/Desktop/calculate/calculate/SecondViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "3B3CC1EB-DC91-4AB1-BBEE-45DB95267B3A - 4d348ecde12a7b83"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "calculate.SecondViewController.historyCalculating.modify : Swift.Array&lt;Swift.Optional&lt;Swift.String&gt;&gt;"
+                  moduleName = "calculate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/glebgurev/Desktop/calculate/calculate/SecondViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "3B3CC1EB-DC91-4AB1-BBEE-45DB95267B3A - cdd7980641f6e1a8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "calculate.SecondViewController.historyCalculating.modify : Swift.Array&lt;Swift.Optional&lt;Swift.String&gt;&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "calculate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/glebgurev/Desktop/calculate/calculate/SecondViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "3B3CC1EB-DC91-4AB1-BBEE-45DB95267B3A - f20be7919ef0a749"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "calculate.SecondViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; calculate.SecondViewController"
+                  moduleName = "calculate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/glebgurev/Desktop/calculate/calculate/SecondViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "192">
+               </Location>
+               <Location
+                  uuid = "3B3CC1EB-DC91-4AB1-BBEE-45DB95267B3A - b56c6b44dac1194e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "calculate.SecondViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;calculate.SecondViewController&gt;"
+                  moduleName = "calculate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/glebgurev/Desktop/calculate/calculate/SecondViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "22"
+                  endingLineNumber = "22"
+                  offsetFromSymbolStart = "172">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F7C81382-C18C-477B-BE5E-E31D8DE2E798"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "calculate/SecondViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "69"
+            endingLineNumber = "69"
+            landmarkName = "actionWithHistory()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
