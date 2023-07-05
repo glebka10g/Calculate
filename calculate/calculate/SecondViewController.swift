@@ -8,42 +8,46 @@
 import UIKit
 
 class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-    let firstVC = ViewController()
+    
     let tableView: UITableView = {
         let table = UITableView()
         table.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
         return table
     }()
     
-    var historyCalculating = ["История пуста"]
+    var storage: HistoryAndDataSource
     
-
-
+    init(storage: HistoryAndDataSource) {
+        self.storage = storage
+        super.init(nibName: nil, bundle: nil)
+    }
     
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
     
+    override func viewWillAppear(_ animated: Bool) {
+        tableView.reloadData() // Обновление данных
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .red
         tableView.frame = view.bounds
         view.addSubview(tableView)
         tableView.delegate = self
         tableView.dataSource = self
         buttonBack()
+
     }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        historyCalculating = firstVC.fuck
-    }
-    
+
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return historyCalculating.count
+        return storage.getHistoryAll().count
     }
     
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        cell.textLabel?.text = historyCalculating[indexPath.row]
+        cell.textLabel?.text = "\(storage.getHistoryAll()[indexPath.row])"
         return cell
     }
     
@@ -67,7 +71,5 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
     
     @objc private func buttonBackView() {
         navigationController?.popViewController(animated: true)
-        let firstVC = ViewController()
-        
     }
 }

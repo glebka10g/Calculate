@@ -7,203 +7,123 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "5A6C154C-4300-4115-9BDE-FC1298569593"
-            shouldBeEnabled = "No"
+            uuid = "374D0C9B-3F03-465B-AC01-BEB5A95EC47C"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "calculate/SecondViewController.swift"
+            filePath = "calculate/historyViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
-            landmarkName = "viewDidLoad()"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "printing()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "C2C368BE-C177-410F-AF86-752673689325"
-            shouldBeEnabled = "No"
+            uuid = "A7176BB5-E55B-4910-BCDE-A8344FD67DF2"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "calculate/ViewController.swift"
+            filePath = "calculate/historyViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "481"
-            endingLineNumber = "481"
-            landmarkName = "ravno()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "EAAAB9E0-0226-4942-938B-46A4A583F221"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "calculate/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "468"
-            endingLineNumber = "468"
-            landmarkName = "buttonNineTapped()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "42F67D83-75B7-4FE2-82FE-98E49BDD9631"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "calculate/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "362"
-            endingLineNumber = "362"
-            landmarkName = "substractionNumbers()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "D560FC9E-0798-4031-A19D-29CE80DFDFFC"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "calculate/SecondViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
-            landmarkName = "tableView(_:cellForRowAt:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "6946A8DE-98D4-4268-9551-EB3C0737C309"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "calculate/ViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "503"
-            endingLineNumber = "503"
-            landmarkName = "ravno()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "3B3CC1EB-DC91-4AB1-BBEE-45DB95267B3A"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "calculate/SecondViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "18"
-            endingLineNumber = "18"
-            landmarkName = "SecondViewController"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "historyViewController"
             landmarkType = "3">
             <Locations>
                <Location
-                  uuid = "3B3CC1EB-DC91-4AB1-BBEE-45DB95267B3A - d55dcbf72b72ceb6"
+                  uuid = "A7176BB5-E55B-4910-BCDE-A8344FD67DF2 - b7b87d0534174287"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "calculate.SecondViewController.historyCalculating.getter : Swift.Array&lt;Swift.Optional&lt;Swift.String&gt;&gt;"
+                  symbolName = "calculate.historyViewController.result.getter : Swift.Array&lt;Swift.String&gt;"
                   moduleName = "calculate"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/glebgurev/Desktop/calculate/calculate/SecondViewController.swift"
+                  urlString = "file:///Users/glebgurev/Desktop/calculate/calculate/historyViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "22"
-                  endingLineNumber = "22"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
                   offsetFromSymbolStart = "88">
                </Location>
                <Location
-                  uuid = "3B3CC1EB-DC91-4AB1-BBEE-45DB95267B3A - 1125e39a65e3b582"
+                  uuid = "A7176BB5-E55B-4910-BCDE-A8344FD67DF2 - fba8be9259f0e6b3"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "calculate.SecondViewController.historyCalculating.setter : Swift.Array&lt;Swift.Optional&lt;Swift.String&gt;&gt;"
+                  symbolName = "calculate.historyViewController.result.setter : Swift.Array&lt;Swift.String&gt;"
                   moduleName = "calculate"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/glebgurev/Desktop/calculate/calculate/SecondViewController.swift"
+                  urlString = "file:///Users/glebgurev/Desktop/calculate/calculate/historyViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "22"
-                  endingLineNumber = "22"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
                   offsetFromSymbolStart = "112">
                </Location>
                <Location
-                  uuid = "3B3CC1EB-DC91-4AB1-BBEE-45DB95267B3A - 4d348ecde12a7b83"
+                  uuid = "A7176BB5-E55B-4910-BCDE-A8344FD67DF2 - 244542e22d5be582"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "calculate.SecondViewController.historyCalculating.modify : Swift.Array&lt;Swift.Optional&lt;Swift.String&gt;&gt;"
+                  symbolName = "calculate.historyViewController.result.modify : Swift.Array&lt;Swift.String&gt;"
                   moduleName = "calculate"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/glebgurev/Desktop/calculate/calculate/SecondViewController.swift"
+                  urlString = "file:///Users/glebgurev/Desktop/calculate/calculate/historyViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "22"
-                  endingLineNumber = "22"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
                   offsetFromSymbolStart = "0">
                </Location>
                <Location
-                  uuid = "3B3CC1EB-DC91-4AB1-BBEE-45DB95267B3A - cdd7980641f6e1a8"
+                  uuid = "A7176BB5-E55B-4910-BCDE-A8344FD67DF2 - ef8bd57dd28cdbf1"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "calculate.SecondViewController.historyCalculating.modify : Swift.Array&lt;Swift.Optional&lt;Swift.String&gt;&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  symbolName = "calculate.historyViewController.result.modify : Swift.Array&lt;Swift.String&gt; with unmangled suffix &quot;.resume.0&quot;"
                   moduleName = "calculate"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/glebgurev/Desktop/calculate/calculate/SecondViewController.swift"
+                  urlString = "file:///Users/glebgurev/Desktop/calculate/calculate/historyViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "22"
-                  endingLineNumber = "22"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
                   offsetFromSymbolStart = "16">
                </Location>
                <Location
-                  uuid = "3B3CC1EB-DC91-4AB1-BBEE-45DB95267B3A - f20be7919ef0a749"
+                  uuid = "A7176BB5-E55B-4910-BCDE-A8344FD67DF2 - f0f0cfe50823064b"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "calculate.SecondViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; calculate.SecondViewController"
+                  symbolName = "calculate.historyViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; calculate.historyViewController"
                   moduleName = "calculate"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/glebgurev/Desktop/calculate/calculate/SecondViewController.swift"
+                  urlString = "file:///Users/glebgurev/Desktop/calculate/calculate/historyViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "22"
-                  endingLineNumber = "22"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
                   offsetFromSymbolStart = "192">
                </Location>
                <Location
-                  uuid = "3B3CC1EB-DC91-4AB1-BBEE-45DB95267B3A - b56c6b44dac1194e"
+                  uuid = "A7176BB5-E55B-4910-BCDE-A8344FD67DF2 - fec510949a7afc4c"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "calculate.SecondViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;calculate.SecondViewController&gt;"
+                  symbolName = "calculate.historyViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;calculate.historyViewController&gt;"
                   moduleName = "calculate"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/glebgurev/Desktop/calculate/calculate/SecondViewController.swift"
+                  urlString = "file:///Users/glebgurev/Desktop/calculate/calculate/historyViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "22"
-                  endingLineNumber = "22"
-                  offsetFromSymbolStart = "172">
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "168">
                </Location>
             </Locations>
          </BreakpointContent>

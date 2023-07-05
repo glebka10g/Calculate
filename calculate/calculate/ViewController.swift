@@ -3,7 +3,8 @@ import SnapKit
 
 class ViewController: UIViewController {
     
-    let secondVC = SecondViewController()
+    lazy var secondVC = SecondViewController(storage: storage)
+    private var storage = HistoryAndDataSource()
     var historyCalculate: [String] = []
     var minusAction = 0
     var deleteAction = 0
@@ -11,7 +12,7 @@ class ViewController: UIViewController {
     var multiplyAction = 0
     var procentAction = 0
     var plusMinus = true
-    var fuck: [String] = []
+    
     var firstNumber: Double = 0.0
     var secondNumber: Double = 0
     var result: Double = 0
@@ -498,19 +499,20 @@ class ViewController: UIViewController {
         deleteAction = 0
         procentAction = 0
         numberField.text? = "\(result)"
-        print(historyCalculate)
+        //print(historyCalculate)
+        storage.addHistory(historyCalculate.joined(separator: ""))
         
     }
     
-    private func pochet() {
-        let historyVC = HistoryViewController()
-        historyVC.otvet = historyCalculate
-        
-    }
+    
     
     @objc private func switchView() {
         navigationController?.pushViewController(secondVC, animated: true)
     }
+    
+    
+    
+    
+    
 }
-
 
