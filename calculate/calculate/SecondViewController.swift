@@ -8,20 +8,17 @@
 import UIKit
 
 class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-    
+    let firstVC = ViewController()
     let tableView: UITableView = {
         let table = UITableView()
         table.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
         return table
     }()
     
-    
-    
-    var history = ""
-    
     var historyCalculating = ["История пуста"]
     
-    
+
+
     
     
     
@@ -33,8 +30,12 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
         tableView.delegate = self
         tableView.dataSource = self
         buttonBack()
-        actionWithHistory()
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        historyCalculating = firstVC.fuck
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return historyCalculating.count
     }
@@ -42,7 +43,6 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        historyCalculating.append(history)
         cell.textLabel?.text = historyCalculating[indexPath.row]
         return cell
     }
@@ -64,21 +64,10 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
         button.addTarget(self, action: #selector(buttonBackView), for: .touchUpInside)
     }
     
-    func actionWithHistory() {
-        if history.isEmpty == false && historyCalculating[0] == "История пуста" {
-            historyCalculating[0] = history
-            historyCalculating.removeLast()
-        } else {
-            historyCalculating.append(history)
-        }
-        
-    }
-    
     
     @objc private func buttonBackView() {
         navigationController?.popViewController(animated: true)
         let firstVC = ViewController()
         
-        history = firstVC.historyCalculate.joined(separator: "")
     }
 }

@@ -14,8 +14,8 @@
             filePath = "calculate/SecondViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
          </BreakpointContent>
@@ -87,22 +87,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "567019A4-CC51-47CA-9EB8-383C43ED272E"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "calculate/SecondViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
-            landmarkName = "tableView(_:cellForRowAt:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "6946A8DE-98D4-4268-9551-EB3C0737C309"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -110,8 +94,8 @@
             filePath = "calculate/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "504"
-            endingLineNumber = "504"
+            startingLineNumber = "503"
+            endingLineNumber = "503"
             landmarkName = "ravno()"
             landmarkType = "7">
          </BreakpointContent>
@@ -126,8 +110,8 @@
             filePath = "calculate/SecondViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
             landmarkName = "SecondViewController"
             landmarkType = "3">
             <Locations>
@@ -222,22 +206,6 @@
                   offsetFromSymbolStart = "172">
                </Location>
             </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "F7C81382-C18C-477B-BE5E-E31D8DE2E798"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "calculate/SecondViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "69"
-            endingLineNumber = "69"
-            landmarkName = "actionWithHistory()"
-            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

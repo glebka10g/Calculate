@@ -14,6 +14,7 @@
 		CEDC2ED72A4EC07D0031C424 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEDC2ED62A4EC07D0031C424 /* Assets.xcassets */; };
 		CEDC2EDA2A4EC07D0031C424 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEDC2ED82A4EC07D0031C424 /* LaunchScreen.storyboard */; };
 		CEDC2EE22A516C900031C424 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC2EE12A516C900031C424 /* SecondViewController.swift */; };
+		CEDC2F0A2A5587E80031C424 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC2F092A5587E80031C424 /* HistoryViewController.swift */; };
 		F949725F9F549251B8B41EC7 /* Pods_calculate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 964C71735C04EB5214FB7750 /* Pods_calculate.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 		CEDC2ED92A4EC07D0031C424 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEDC2EDB2A4EC07D0031C424 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEDC2EE12A516C900031C424 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		CEDC2F092A5587E80031C424 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 				CEDC2ECD2A4EC07B0031C424 /* AppDelegate.swift */,
 				CEDC2ECF2A4EC07B0031C424 /* SceneDelegate.swift */,
 				CEDC2EE12A516C900031C424 /* SecondViewController.swift */,
+				CEDC2F092A5587E80031C424 /* HistoryViewController.swift */,
 				CEDC2ED12A4EC07B0031C424 /* ViewController.swift */,
 				CEDC2ED32A4EC07B0031C424 /* Main.storyboard */,
 				CEDC2ED62A4EC07D0031C424 /* Assets.xcassets */,
@@ -212,6 +215,7 @@
 				CEDC2EE22A516C900031C424 /* SecondViewController.swift in Sources */,
 				CEDC2ED22A4EC07B0031C424 /* ViewController.swift in Sources */,
 				CEDC2ECE2A4EC07B0031C424 /* AppDelegate.swift in Sources */,
+				CEDC2F0A2A5587E80031C424 /* HistoryViewController.swift in Sources */,
 				CEDC2ED02A4EC07B0031C424 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

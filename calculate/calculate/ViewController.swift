@@ -11,7 +11,7 @@ class ViewController: UIViewController {
     var multiplyAction = 0
     var procentAction = 0
     var plusMinus = true
-    
+    var fuck: [String] = []
     var firstNumber: Double = 0.0
     var secondNumber: Double = 0
     var result: Double = 0
@@ -499,8 +499,13 @@ class ViewController: UIViewController {
         procentAction = 0
         numberField.text? = "\(result)"
         print(historyCalculate)
-        secondVC.history = historyCalculate.joined(separator: "")
-        secondVC.historyCalculating.append(secondVC.history)
+        
+    }
+    
+    private func pochet() {
+        let historyVC = HistoryViewController()
+        historyVC.otvet = historyCalculate
+        
     }
     
     @objc private func switchView() {
