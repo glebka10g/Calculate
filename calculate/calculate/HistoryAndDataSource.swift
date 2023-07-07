@@ -1,25 +1,13 @@
-//
-//  HistoryAndDataSource.swift
-//  calculate
-//
-//  Created by Gleb Gurev on 05.07.2023.
-//
-
 import Foundation
 
-
-class HistoryAndDataSource {
-   
+class History {
+    private var history: [String] = []
     
-   private var history: [String] = []
-    
-    
-    func addHistory(_ historyString: String) {
-        history.append(historyString)
+    func addHistory(_ string: String) {
+        history.append(string)
     }
     
-    func getHistoryAll() -> [String] {
+    func moveHistory() -> [String]{
         return history
     }
-    
 }

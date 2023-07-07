@@ -9,15 +9,25 @@ import UIKit
 
 class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
+    var testUD: [String] = []
+    
+    func test() -> [String] {
+        if let data = UserDefaults.standard.stringArray(forKey: "historyArray") {
+            testUD = data
+        }
+        return testUD
+    }
+    
+    
+
     let tableView: UITableView = {
-        let table = UITableView()
-        table.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
-        return table
-    }()
-    
-    var storage: HistoryAndDataSource
-    
-    init(storage: HistoryAndDataSource) {
+            let table = UITableView()
+            table.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+            return table
+        }()
+
+    var storage: History
+    init(storage: History) {
         self.storage = storage
         super.init(nibName: nil, bundle: nil)
     }
@@ -27,8 +37,11 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        tableView.reloadData() // Обновление данных
+        test()
+        tableView.reloadData()
+        
     }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,17 +50,18 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
         tableView.delegate = self
         tableView.dataSource = self
         buttonBack()
-
+        
+     //   print(UserDefaults.stri)
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return storage.getHistoryAll().count
+        return testUD.count
     }
     
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        cell.textLabel?.text = "\(storage.getHistoryAll()[indexPath.row])"
+        cell.textLabel?.text = "\(testUD[indexPath.row])"
         return cell
     }
     

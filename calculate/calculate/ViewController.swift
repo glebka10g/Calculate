@@ -4,7 +4,9 @@ import SnapKit
 class ViewController: UIViewController {
     
     lazy var secondVC = SecondViewController(storage: storage)
-    private var storage = HistoryAndDataSource()
+    private var storage = History()
+    
+    var allHistory: [String] = []
     var historyCalculate: [String] = []
     var minusAction = 0
     var deleteAction = 0
@@ -502,9 +504,14 @@ class ViewController: UIViewController {
         //print(historyCalculate)
         storage.addHistory(historyCalculate.joined(separator: ""))
         
+        //var userDefaultString: String = historyCalculate.joined(separator: "")
+        allHistory.append(historyCalculate.joined(separator: ""))
     }
     
-    
+    override func viewWillDisappear(_ animated: Bool) {
+        UserDefaults.standard.set(allHistory, forKey: "historyArray")
+        print(allHistory)
+    }
     
     @objc private func switchView() {
         navigationController?.pushViewController(secondVC, animated: true)

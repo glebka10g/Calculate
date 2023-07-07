@@ -128,5 +128,85 @@
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8BFBE4B8-3D4D-469E-AD13-24ABAEB753BF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "calculate/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "507"
+            endingLineNumber = "507"
+            landmarkName = "ravno()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8BFBE4B8-3D4D-469E-AD13-24ABAEB753BF - e57f5ef9c5bbfc21"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "calculate.ViewController.ravno() -&gt; ()"
+                  moduleName = "calculate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/glebgurev/Documents/GitHub/Calculate/calculate/calculate/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "507"
+                  endingLineNumber = "507"
+                  offsetFromSymbolStart = "4400">
+               </Location>
+               <Location
+                  uuid = "8BFBE4B8-3D4D-469E-AD13-24ABAEB753BF - e57f5ef9c5bbfcc0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "calculate.ViewController.ravno() -&gt; ()"
+                  moduleName = "calculate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/glebgurev/Documents/GitHub/Calculate/calculate/calculate/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "508"
+                  endingLineNumber = "508"
+                  offsetFromSymbolStart = "4380">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "90E31805-426D-4F3E-AEF5-5A9AEB099A3D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "calculate/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "506"
+            endingLineNumber = "506"
+            landmarkName = "ravno()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FF010D73-6F99-42E5-B315-326A74F07111"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "calculate/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "505"
+            endingLineNumber = "505"
+            landmarkName = "ravno()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
