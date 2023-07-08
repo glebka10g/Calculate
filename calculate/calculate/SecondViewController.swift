@@ -8,17 +8,6 @@
 import UIKit
 
 class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-    
-    var testUD: [String] = []
-    
-    func test() -> [String] {
-        if let data = UserDefaults.standard.stringArray(forKey: "historyArray") {
-            testUD = data
-        }
-        return testUD
-    }
-    
-    
 
     let tableView: UITableView = {
             let table = UITableView()
@@ -37,11 +26,8 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        test()
         tableView.reloadData()
-        
     }
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -50,18 +36,25 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
         tableView.delegate = self
         tableView.dataSource = self
         buttonBack()
-        
-     //   print(UserDefaults.stri)
+      //  storage.defaults.synchronize()
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return testUD.count
+        return UserDefaults.standard.stringArray(forKey: "expression2")?.count ?? 0
     }
     
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return storage.datee()
+    }
+
+
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return UserDefaults.standard.string(forKey: "dateHistory")
+    }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        cell.textLabel?.text = "\(testUD[indexPath.row])"
+        cell.textLabel?.text = "\(UserDefaults.standard.stringArray(forKey: "expression2")![indexPath.row])" ?? ""
         return cell
     }
     

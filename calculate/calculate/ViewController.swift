@@ -394,7 +394,7 @@ class ViewController: UIViewController {
         
     }
     @objc private func multiplyNumbers() {
-
+        
         if let text = Double(numberField.text!) {
             firstNumber = text
             historyCalculate = numberField.text!.components(separatedBy: "")
@@ -425,7 +425,7 @@ class ViewController: UIViewController {
         //     historyCalculate.append("0")
     }
     @objc private func buttonOneTapped() {
-
+        
         numberField.text?.append("1")
         
         //     historyCalculate.append("1")
@@ -436,7 +436,7 @@ class ViewController: UIViewController {
         //      historyCalculate.append("2")
     }
     @objc private func buttonThreeTapped() {
-
+        
         numberField.text?.append("3")
         
         //     historyCalculate.append("3")
@@ -457,7 +457,7 @@ class ViewController: UIViewController {
         
     }
     @objc private func buttonSevenTapped() {
-
+        
         numberField.text?.append("7")
         //    historyCalculate.append("7")
         
@@ -479,7 +479,6 @@ class ViewController: UIViewController {
     @objc private func ravno() {
         secondNumber = Double(numberField.text!)!
         
-        print("\(firstNumber), \(secondNumber)")
         if minusAction == 1 {
             result = firstNumber - secondNumber
         } else if plusAction == 1 {
@@ -501,25 +500,15 @@ class ViewController: UIViewController {
         deleteAction = 0
         procentAction = 0
         numberField.text? = "\(result)"
-        //print(historyCalculate)
         storage.addHistory(historyCalculate.joined(separator: ""))
         
-        //var userDefaultString: String = historyCalculate.joined(separator: "")
-        allHistory.append(historyCalculate.joined(separator: ""))
+        
+        
     }
     
-    override func viewWillDisappear(_ animated: Bool) {
-        UserDefaults.standard.set(allHistory, forKey: "historyArray")
-        print(allHistory)
-    }
     
     @objc private func switchView() {
         navigationController?.pushViewController(secondVC, animated: true)
     }
-    
-    
-    
-    
-    
 }
 
