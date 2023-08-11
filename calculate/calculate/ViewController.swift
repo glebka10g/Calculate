@@ -500,7 +500,7 @@ class ViewController: UIViewController {
         deleteAction = 0
         procentAction = 0
         numberField.text? = "\(result)"
-        storage.addHistory(historyCalculate.joined(separator: ""))
+        storage.app(test: historyCalculate.joined(separator: ""))
         
         
         

@@ -2,41 +2,32 @@ import Foundation
 
 
 class History {
+    
+    private var chet: [String: [String]] = [:]
     private let date = Date()
     private let dateFormatter = DateFormatter()
-    private let defaults = UserDefaults.standard
+    private var chetTest: [String] = []
+    private var defaults = UserDefaults.standard
     
-    private var history: [String] = []
-    
-    func addHistory(_ string: String) {
-        history.append(string)
-        if defaults.stringArray(forKey: "expression2") == nil {
-            defaults.set(history, forKey: "expression2")
-        } else if defaults.stringArray(forKey: "expression2") != nil {
-            var secondArray = defaults.stringArray(forKey: "expression2")
-            secondArray!.append(history.joined(separator: ""))
-            defaults.set(secondArray, forKey: "expression2")
-        }
-        history = []
-    }
-
-    func datee() -> Int {
-        var countDate = 0
-        var allDate: [String] = []
+    func app (test: String) {
         dateFormatter.dateStyle = .short
         dateFormatter.timeStyle = .none
-        allDate.append(dateFormatter.string(from: date))
-        if defaults.stringArray(forKey: "dateHistory") == nil {
-            defaults.set(allDate, forKey: "dateHisotry")
-        } else if defaults.stringArray(forKey: "dateHistory") != nil {
-            var secondDateHistory = defaults.stringArray(forKey: "dateHistory")
-            secondDateHistory!.append(allDate.joined(separator: ""))
-            allDate = []
-            defaults.set(secondDateHistory, forKey: "dateHistory")
+        
+        let currentDate = dateFormatter.string(from: date)
+        
+        if let testValue = defaults.dictionary(forKey: "test3")  as? [String: [String]]{
+            chet = testValue
         }
-        countDate += 1
-        return countDate
+        
+        if var expressions = chet[currentDate] {
+            expressions.append(test)
+            chet[currentDate] = expressions
+        } else {
+            chet[currentDate] = [test]
+        }
+        
+        defaults.set(chet, forKey: "test3")
     }
-    
 }
+
 

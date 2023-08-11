@@ -40,21 +40,41 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return UserDefaults.standard.stringArray(forKey: "expression2")?.count ?? 0
+        let testLibrary = UserDefaults.standard.dictionary(forKey: "test3") as? [String: [String]]
+        var dates: [String] = []
+        for key in testLibrary!.keys {
+            dates.append(key)
+        }
+        let currentdate = dates[section]
+        if let expressions = testLibrary![currentdate] {
+            return expressions.count
+        }
+        return 0
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
-        return storage.datee()
+        let test = UserDefaults.standard.dictionary(forKey: "test3")
+        return test?.keys.count ?? 3
     }
 
 
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return UserDefaults.standard.string(forKey: "dateHistory")
+        var arrayKeys: [String] = []
+        if let testValue = UserDefaults.standard.dictionary(forKey: "test3") {
+            for value in testValue.keys {
+                arrayKeys.append(value)
+            }
+        }
+        return arrayKeys[section]
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        cell.textLabel?.text = "\(UserDefaults.standard.stringArray(forKey: "expression2")![indexPath.row])" ?? ""
+        let testLibrary = UserDefaults.standard.dictionary(forKey: "test3") ?? [:]
+        let dates = Array(testLibrary.keys)
+        let currentDate = dates[indexPath.section]
+        let expressions = testLibrary[currentDate] as? [String] ?? []
+        cell.textLabel?.text = expressions[indexPath.row]
         return cell
     }
     
@@ -74,6 +94,7 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
         }
         button.addTarget(self, action: #selector(buttonBackView), for: .touchUpInside)
     }
+    
     
     
     @objc private func buttonBackView() {
