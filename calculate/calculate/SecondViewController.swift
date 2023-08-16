@@ -8,13 +8,18 @@
 import UIKit
 
 class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-
+    
+    
     let tableView: UITableView = {
-            let table = UITableView()
-            table.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
-            return table
-        }()
-
+        let table = UITableView()
+        table.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        return table
+    }()
+    
+    var closure: ((String) -> Void)?
+    
+    let peredachka = Peredacha()
+    
     var storage: History
     init(storage: History) {
         self.storage = storage
@@ -29,6 +34,7 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
         tableView.reloadData()
     }
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.frame = view.bounds
@@ -36,11 +42,17 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
         tableView.delegate = self
         tableView.dataSource = self
         buttonBack()
-      //  storage.defaults.synchronize()
+        
+        let longTap = UILongPressGestureRecognizer(target: self, action: #selector(longTapped(_:)))
+        longTap.minimumPressDuration = 0.5
+        view.addGestureRecognizer(longTap)
+        let tap = UITapGestureRecognizer(target: self, action: #selector(tapped(_:)))
+        view.addGestureRecognizer(tap)
+        //  storage.defaults.synchronize()
     }
-
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        let testLibrary = UserDefaults.standard.dictionary(forKey: "test3") as? [String: [String]]
+        let testLibrary = UserDefaults.standard.dictionary(forKey: "test4") as? [String: [String]]
         var dates: [String] = []
         for key in testLibrary!.keys {
             dates.append(key)
@@ -53,14 +65,14 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
-        let test = UserDefaults.standard.dictionary(forKey: "test3")
+        let test = UserDefaults.standard.dictionary(forKey: "test4")
         return test?.keys.count ?? 3
     }
-
-
+    
+    
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         var arrayKeys: [String] = []
-        if let testValue = UserDefaults.standard.dictionary(forKey: "test3") {
+        if let testValue = UserDefaults.standard.dictionary(forKey: "test4") {
             for value in testValue.keys {
                 arrayKeys.append(value)
             }
@@ -70,7 +82,7 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        let testLibrary = UserDefaults.standard.dictionary(forKey: "test3") ?? [:]
+        let testLibrary = UserDefaults.standard.dictionary(forKey: "test4") ?? [:]
         let dates = Array(testLibrary.keys)
         let currentDate = dates[indexPath.section]
         let expressions = testLibrary[currentDate] as? [String] ?? []
@@ -95,9 +107,58 @@ class SecondViewController: UIViewController, UITableViewDelegate, UITableViewDa
         button.addTarget(self, action: #selector(buttonBackView), for: .touchUpInside)
     }
     
+
+    @objc private func longTapped(_ sender: UITapGestureRecognizer) {
+        let tapLocation = sender.location(in: tableView)
+        if let locationIndex = tableView.indexPathForRow(at: tapLocation) {
+            let tappedCell = tableView.cellForRow(at: locationIndex)
+            if let text = tappedCell?.textLabel?.text {
+                let copy = UIPasteboard.general
+                copy.string = text
+                let popupLabel = UILabel(frame: CGRect(x: 0, y: 0, width: 70, height: 40))
+                popupLabel.center = view.center
+                popupLabel.textAlignment = .center
+                popupLabel.backgroundColor = UIColor.black.withAlphaComponent(0.5)
+                popupLabel.textColor = .white
+                popupLabel.text = "Copy"
+                popupLabel.alpha = 0
+                popupLabel.layer.cornerRadius = 5
+                popupLabel.clipsToBounds = true
+                view.addSubview(popupLabel)
+                
+                UIView.animate(withDuration: 0.3, animations: {
+                    popupLabel.alpha = 1
+                }, completion: {(_) in
+                    DispatchQueue.main.asyncAfter(deadline: .now())
+                    { UIView.animate(withDuration: 0.3, animations: {
+                        popupLabel.alpha = 0
+                    }, completion: {(_) in
+                        popupLabel.removeFromSuperview()
+                    })}
+                })
+            }
+            
+        }
+    }
     
+    @objc private func tapped(_ sender: UITapGestureRecognizer) {
+        let tapLocation = sender.location(in: tableView)
+        if let tappedIndexPath = tableView.indexPathForRow(at: tapLocation) {
+            let tappedCell = tableView.cellForRow(at: tappedIndexPath)
+            if let text = tappedCell?.textLabel?.text {
+                
+                let a = peredachka.app(text)
+                print(a)
+                closure?(a)
     
+                
+            }
+        }
+        
+        
+    }
     @objc private func buttonBackView() {
         navigationController?.popViewController(animated: true)
     }
 }
+

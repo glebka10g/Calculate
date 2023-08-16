@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE6C65BA2A8A1E4E0031E1C2 /* Peredacha.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6C65B92A8A1E4E0031E1C2 /* Peredacha.swift */; };
 		CEDC2ECE2A4EC07B0031C424 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC2ECD2A4EC07B0031C424 /* AppDelegate.swift */; };
 		CEDC2ED02A4EC07B0031C424 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC2ECF2A4EC07B0031C424 /* SceneDelegate.swift */; };
 		CEDC2ED22A4EC07B0031C424 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC2ED12A4EC07B0031C424 /* ViewController.swift */; };
@@ -22,6 +23,7 @@
 		964C71735C04EB5214FB7750 /* Pods_calculate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_calculate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96E4AB065693AE983ED14CDE /* Pods-calculate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-calculate.release.xcconfig"; path = "Target Support Files/Pods-calculate/Pods-calculate.release.xcconfig"; sourceTree = "<group>"; };
 		A51807E2C70755F1792636D6 /* Pods-calculate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-calculate.debug.xcconfig"; path = "Target Support Files/Pods-calculate/Pods-calculate.debug.xcconfig"; sourceTree = "<group>"; };
+		CE6C65B92A8A1E4E0031E1C2 /* Peredacha.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peredacha.swift; sourceTree = "<group>"; };
 		CEDC2ECA2A4EC07B0031C424 /* calculate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calculate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEDC2ECD2A4EC07B0031C424 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEDC2ECF2A4EC07B0031C424 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				CEDC2ECF2A4EC07B0031C424 /* SceneDelegate.swift */,
 				CEDC2EE12A516C900031C424 /* SecondViewController.swift */,
 				CEDC2ED12A4EC07B0031C424 /* ViewController.swift */,
+				CE6C65B92A8A1E4E0031E1C2 /* Peredacha.swift */,
 				CEDC2F0D2A55BAB40031C424 /* HistoryAndDataSource.swift */,
 				CEDC2ED32A4EC07B0031C424 /* Main.storyboard */,
 				CEDC2ED62A4EC07D0031C424 /* Assets.xcassets */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEDC2EE22A516C900031C424 /* SecondViewController.swift in Sources */,
+				CE6C65BA2A8A1E4E0031E1C2 /* Peredacha.swift in Sources */,
 				CEDC2ED22A4EC07B0031C424 /* ViewController.swift in Sources */,
 				CEDC2ECE2A4EC07B0031C424 /* AppDelegate.swift in Sources */,
 				CEDC2ED02A4EC07B0031C424 /* SceneDelegate.swift in Sources */,

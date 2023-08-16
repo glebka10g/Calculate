@@ -6,6 +6,7 @@ class ViewController: UIViewController {
     lazy var secondVC = SecondViewController(storage: storage)
     private var storage = History()
     
+    var receiveValue: String?
     var allHistory: [String] = []
     var historyCalculate: [String] = []
     var minusAction = 0
@@ -34,12 +35,13 @@ class ViewController: UIViewController {
         view.backgroundColor = .black
         buttons()
         label()
-        
+        test()
         numberField.snp.makeConstraints { maker in
             maker.height.equalToSuperview().inset(320)
             maker.top.equalToSuperview().inset(10)
             maker.left.right.equalToSuperview().inset(0)
         }
+        
         
         
         
@@ -353,6 +355,7 @@ class ViewController: UIViewController {
         
     }
     
+    
     @objc private func changePlusMinus() {
         
     }
@@ -510,5 +513,22 @@ class ViewController: UIViewController {
     @objc private func switchView() {
         navigationController?.pushViewController(secondVC, animated: true)
     }
+}
+
+
+extension ViewController {
+    
+    func test() {
+        secondVC.closure = { valuee in
+
+            self.historyCalculate = []
+            self.historyCalculate.append(valuee)
+            self.numberField.text?.removeAll()
+            self.numberField.text?.append(valuee)
+            self.navigationController?.popViewController(animated: true)
+        }
+    }
+    
+
 }
 

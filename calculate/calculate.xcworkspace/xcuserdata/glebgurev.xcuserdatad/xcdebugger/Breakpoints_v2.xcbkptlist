@@ -128,5 +128,495 @@
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EFB5DE6D-C350-4DDF-806A-52FCBF8D7D7C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "calculate/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "532"
+            endingLineNumber = "532"
+            landmarkName = "ViewController"
+            landmarkType = "21">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "787A9343-8EB5-4AE8-A615-F47B7F1572E8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "calculate/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "531"
+            endingLineNumber = "531"
+            landmarkName = "ViewController"
+            landmarkType = "21">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "28A03DFB-762E-47BB-9A55-084AFE056A55"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "calculate/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "530"
+            endingLineNumber = "530"
+            landmarkName = "test()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "28A03DFB-762E-47BB-9A55-084AFE056A55 - fd5da378c75ed8a6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "calculate.ViewController.test() -&gt; ()"
+                  moduleName = "calculate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/glebgurev/Documents/GitHub/Calculate/calculate/calculate/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "529"
+                  endingLineNumber = "529"
+                  offsetFromSymbolStart = "924">
+               </Location>
+               <Location
+                  uuid = "28A03DFB-762E-47BB-9A55-084AFE056A55 - fd5da378c75ed8a6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "calculate.ViewController.test() -&gt; ()"
+                  moduleName = "calculate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/glebgurev/Documents/GitHub/Calculate/calculate/calculate/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "529"
+                  endingLineNumber = "529"
+                  offsetFromSymbolStart = "272">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C2FAB479-702F-446C-992F-2B26320CA7A8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "calculate/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "529"
+            endingLineNumber = "529"
+            landmarkName = "test()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C2FAB479-702F-446C-992F-2B26320CA7A8 - fd5da378c75ed8c5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "calculate.ViewController.test() -&gt; ()"
+                  moduleName = "calculate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/glebgurev/Documents/GitHub/Calculate/calculate/calculate/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "528"
+                  endingLineNumber = "528"
+                  offsetFromSymbolStart = "452">
+               </Location>
+               <Location
+                  uuid = "C2FAB479-702F-446C-992F-2B26320CA7A8 - 70c0941daff1535b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; () in calculate.ViewController.test() -&gt; ()"
+                  moduleName = "calculate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/glebgurev/Documents/GitHub/Calculate/calculate/calculate/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "528"
+                  endingLineNumber = "528"
+                  offsetFromSymbolStart = "1468">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "110F43E0-E0D0-41FF-B673-6E4D70D005D6"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "calculate/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "522"
+            endingLineNumber = "522"
+            landmarkName = "test()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "110F43E0-E0D0-41FF-B673-6E4D70D005D6 - 70c0941daff14cf6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; () in calculate.ViewController.test() -&gt; ()"
+                  moduleName = "calculate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/glebgurev/Documents/GitHub/Calculate/calculate/calculate/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "523"
+                  endingLineNumber = "523"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "110F43E0-E0D0-41FF-B673-6E4D70D005D6 - fd5da378c75ec768"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "calculate.ViewController.test() -&gt; ()"
+                  moduleName = "calculate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/glebgurev/Documents/GitHub/Calculate/calculate/calculate/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "523"
+                  endingLineNumber = "523"
+                  offsetFromSymbolStart = "156">
+               </Location>
+               <Location
+                  uuid = "110F43E0-E0D0-41FF-B673-6E4D70D005D6 - 70c0941daff14c11"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; () in calculate.ViewController.test() -&gt; ()"
+                  moduleName = "calculate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/glebgurev/Documents/GitHub/Calculate/calculate/calculate/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "522"
+                  endingLineNumber = "522"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "110F43E0-E0D0-41FF-B673-6E4D70D005D6 - fd5da378c75ec768"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "calculate.ViewController.test() -&gt; ()"
+                  moduleName = "calculate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/glebgurev/Documents/GitHub/Calculate/calculate/calculate/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "523"
+                  endingLineNumber = "523"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  uuid = "110F43E0-E0D0-41FF-B673-6E4D70D005D6 - 70c0941daff14c11"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; () in calculate.ViewController.test() -&gt; ()"
+                  moduleName = "calculate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/glebgurev/Documents/GitHub/Calculate/calculate/calculate/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "522"
+                  endingLineNumber = "522"
+                  offsetFromSymbolStart = "84">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F9E967B4-FE82-4621-A1DD-2F5A53835943"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "calculate/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "523"
+            endingLineNumber = "523"
+            landmarkName = "test()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F9E967B4-FE82-4621-A1DD-2F5A53835943 - 70c0941daff14cd7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; () in calculate.ViewController.test() -&gt; ()"
+                  moduleName = "calculate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/glebgurev/Documents/GitHub/Calculate/calculate/calculate/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "524"
+                  endingLineNumber = "524"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "F9E967B4-FE82-4621-A1DD-2F5A53835943 - 70c0941daff14cd7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; () in calculate.ViewController.test() -&gt; ()"
+                  moduleName = "calculate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/glebgurev/Documents/GitHub/Calculate/calculate/calculate/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "524"
+                  endingLineNumber = "524"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "F9E967B4-FE82-4621-A1DD-2F5A53835943 - 70c0941daff14cd7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; () in calculate.ViewController.test() -&gt; ()"
+                  moduleName = "calculate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/glebgurev/Documents/GitHub/Calculate/calculate/calculate/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "524"
+                  endingLineNumber = "524"
+                  offsetFromSymbolStart = "100">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "30961651-536D-42AC-B1AE-A689352248C7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "calculate/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "521"
+            endingLineNumber = "521"
+            landmarkName = "test()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "30961651-536D-42AC-B1AE-A689352248C7 - fd5da378c75ec7ae"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "calculate.ViewController.test() -&gt; ()"
+                  moduleName = "calculate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/glebgurev/Documents/GitHub/Calculate/calculate/calculate/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "521"
+                  endingLineNumber = "521"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "30961651-536D-42AC-B1AE-A689352248C7 - 70c0941daff14c30"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; () in calculate.ViewController.test() -&gt; ()"
+                  moduleName = "calculate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/glebgurev/Documents/GitHub/Calculate/calculate/calculate/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "521"
+                  endingLineNumber = "521"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "30961651-536D-42AC-B1AE-A689352248C7 - fd5da378c75ec78f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "calculate.ViewController.test() -&gt; ()"
+                  moduleName = "calculate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/glebgurev/Documents/GitHub/Calculate/calculate/calculate/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "522"
+                  endingLineNumber = "522"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "30961651-536D-42AC-B1AE-A689352248C7 - fd5da378c75ec78f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "calculate.ViewController.test() -&gt; ()"
+                  moduleName = "calculate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/glebgurev/Documents/GitHub/Calculate/calculate/calculate/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "522"
+                  endingLineNumber = "522"
+                  offsetFromSymbolStart = "116">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EC3FC3BE-FD78-4420-B61D-739C0BF96890"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "calculate/SecondViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "152"
+            endingLineNumber = "152"
+            landmarkName = "tapped(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3F5B0CA7-370A-4D98-B9C0-4D63A5AA5E74"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "calculate/SecondViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "151"
+            endingLineNumber = "151"
+            landmarkName = "tapped(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8D7C16EA-21B3-415C-9411-43E350E4991A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "calculate/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "526"
+            endingLineNumber = "526"
+            landmarkName = "test()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "8D7C16EA-21B3-415C-9411-43E350E4991A - 70c0941daff14cb4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; () in calculate.ViewController.test() -&gt; ()"
+                  moduleName = "calculate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/glebgurev/Documents/GitHub/Calculate/calculate/calculate/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "525"
+                  endingLineNumber = "525"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "8D7C16EA-21B3-415C-9411-43E350E4991A - 70c0941daff14cb4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; () in calculate.ViewController.test() -&gt; ()"
+                  moduleName = "calculate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/glebgurev/Documents/GitHub/Calculate/calculate/calculate/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "525"
+                  endingLineNumber = "525"
+                  offsetFromSymbolStart = "176">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5B726696-4DE2-4AA4-A6B6-2CAC980767B2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "calculate/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "527"
+            endingLineNumber = "527"
+            landmarkName = "test()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5B726696-4DE2-4AA4-A6B6-2CAC980767B2 - fd5da378c75ed8e4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "calculate.ViewController.test() -&gt; ()"
+                  moduleName = "calculate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/glebgurev/Documents/GitHub/Calculate/calculate/calculate/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "527"
+                  endingLineNumber = "527"
+                  offsetFromSymbolStart = "260">
+               </Location>
+               <Location
+                  uuid = "5B726696-4DE2-4AA4-A6B6-2CAC980767B2 - 70c0941daff14c95"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.String) -&gt; () in calculate.ViewController.test() -&gt; ()"
+                  moduleName = "calculate"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/glebgurev/Documents/GitHub/Calculate/calculate/calculate/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "526"
+                  endingLineNumber = "526"
+                  offsetFromSymbolStart = "700">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

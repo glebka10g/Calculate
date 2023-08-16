@@ -15,7 +15,7 @@ class History {
         
         let currentDate = dateFormatter.string(from: date)
         
-        if let testValue = defaults.dictionary(forKey: "test3")  as? [String: [String]]{
+        if let testValue = defaults.dictionary(forKey: "test4")  as? [String: [String]]{
             chet = testValue
         }
         
@@ -26,7 +26,7 @@ class History {
             chet[currentDate] = [test]
         }
         
-        defaults.set(chet, forKey: "test3")
+        defaults.set(chet, forKey: "test4")
     }
 }
 
